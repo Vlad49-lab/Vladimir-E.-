@@ -9,7 +9,7 @@ print(calificacion)
 # Matriz y cuarto valor
 
 matriz = [ [1, 1, 1, 3], [2, 2, 2, 7], [3, 3, 3, 9], [4, 4, 4, 13] ]
-
+print("La matriz inicial es: ", matriz)
 
 primer_elemento = [matriz[0][0],matriz[1][0],matriz[2][0],matriz[3][0]]
 segundo_elemento =[matriz[0][1],matriz[1][1],matriz[2][1],matriz[3][1]]
@@ -54,4 +54,4 @@ for x in cuarto_elemento :
         print('no es posible')
         continue
 
-print(matriz)
+print('la matriz corregida es', matriz)
