@@ -14,6 +14,7 @@ def wats(inicial, final, suma):
         wats(inicial, final, suma)
 
     else:
+        print(serie[1:-1])
         print(len(serie)-2)
 
 wats(x, y, 0)
