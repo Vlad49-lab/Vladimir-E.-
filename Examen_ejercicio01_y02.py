@@ -14,6 +14,6 @@ def fibo(long, ser, aum, ant):
 
     else:
         print(serie)
-        print('El ultimo numero es: ', serie[-1])
+        print('El ultimo numero es: ', serie[-2])
 
 fibo(x, 1, 0, 0)
